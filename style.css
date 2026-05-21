@@ -333,7 +333,7 @@ ul {
 .hero-bg-wrap {
   position: absolute;
   inset: 0;
-  background-image: url('hero_bg.png?v=3');
+  background-image: url('hero_bg.png?v=4');
   background-size: cover;
   background-position: center;
 }
