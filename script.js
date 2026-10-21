@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
     anchor.addEventListener('click', e => {
       const targetId = anchor.getAttribute('href');
       if (targetId === '#') return;
-      const targetEl = document.querySelector(targetId);
+      const targetEl = document.getElementById(targetId.slice(1));
       if (targetEl) {
         e.preventDefault();
         const top = targetEl.getBoundingClientRect().top + window.pageYOffset - 70;
